@@ -7,7 +7,7 @@
 
 ## framework's and library's
 ### Node js:
-1. In your cmd input next: <npm install>
+1. In your cmd input next in the root directory of project: npm install
 
 ### Python
 1. run 'librarys.bat' in project folder
@@ -27,6 +27,6 @@
 
 
 # For dev:start project enter in your cmd: 
-##  <npm run start:dev>
+##  npm run start:dev
 
 ### donwload file (https://mega.nz/file/CkQSkKJQ#ry5qLJI95Nq3VzpsSbVA67PdhKeM3mlhRXbHxV1xEU0) and paste him into src/libs/lorem-ipsum-AI/
