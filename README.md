@@ -7,7 +7,7 @@
 
 ## framework's and library's
 ### Node js:
-1. In your cmd input next: npm install
+1. In your cmd input next in the root directory of project: npm install
 
 ### Python
 1. run 'librarys.bat' in project folder
