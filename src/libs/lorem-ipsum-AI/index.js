@@ -3,6 +3,9 @@ import dataSchema from './metaData'
 import mongoose from 'mongoose';
 
 
+let temppath = process.cwd();
+const path = temppath + '/src/libs/lorem-ipsum-AI'
+
 const metaDataModel = new mongoose.model('videoMeta', dataSchema);
 
 
@@ -24,7 +27,7 @@ async function initCheck(id, ctx) {
             mode: 'text',
             args: [data.path],
             pythonOptions: ['-u'],
-            scriptPath: '../lorem-ipsum-AI'
+            scriptPath: path
         }
         return PythonShell.run('main.py', options, function (err, results) {
             if (err) throw err;

@@ -9,14 +9,12 @@ from collections import Counter
 text_finally=''
 
 def GetObjectsList(name,expansion):
-    
+    path_yolo=os.path.abspath("yolo.h5")
     video=VideoFileClip(f"{path}.{expansion}")
     video=video.set_fps(1)
     video=video.without_audio()
     video=video.fx(vfx.speedx,5)
     video.write_videofile(f"{name}_temp.{expansion}")
-
-
 
     ListObjects=[]
     def forFrame(frame_number, output_array, output_count):
@@ -33,7 +31,7 @@ def GetObjectsList(name,expansion):
 
     video_detector = VideoObjectDetection()
     video_detector.setModelTypeAsYOLOv3()
-    video_detector.setModelPath("../lorem-ipsum-AI/yolo.h5")
+    video_detector.setModelPath(path_yolo)
     video_detector.loadModel()
 
 

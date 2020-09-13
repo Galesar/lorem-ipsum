@@ -3,12 +3,15 @@ import koaBody from 'koa-body';
 import {createMeta} from '../../libs/lorem-ipsum-AI'
 import dataSchema from '../../libs/lorem-ipsum-AI/metaData'
 import mongoose from 'mongoose'
+import path from 'path';
 
 const metaDataModel = new mongoose.model('videoMeta', dataSchema);
 
 let user = {
     name: 'Alex'
 }
+
+
 
 const router = new Router();
 
