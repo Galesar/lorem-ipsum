@@ -55,4 +55,5 @@ Here you can directly work with the database. Congratulations!
 ## or run 'start_dev.bat' in project folder
 
 
-### donwload file (https://mega.nz/file/CkQSkKJQ#ry5qLJI95Nq3VzpsSbVA67PdhKeM3mlhRXbHxV1xEU0) and paste him into src/libs/lorem-ipsum-AI/
+### donwload file (https://mega.nz/file/CkQSkKJQ#ry5qLJI95Nq3VzpsSbVA67PdhKeM3mlhRXbHxV1xEU0) and paste him into root directory of project
+
