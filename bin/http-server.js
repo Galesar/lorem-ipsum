@@ -1,7 +1,7 @@
 import httpServer from '../src/http/server';
 import gracefulShutdownMix from 'http-shutdown';
 
-const httpPort = 8081;
+const httpPort = 8080;
 
 function onListen() {
     console.log(`=========== HTTP SERVER SUCCESFULL RUN ON PORT ${httpPort} ===========`);
